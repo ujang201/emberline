@@ -1,20 +1,22 @@
-# EMBERLINE — a three.js tactical FPS
+# emberline
 
-An original round-based tactical FPS for the make.fun bounty
-`threejs-fps-02` ("Make the best three.js tactical FPS", $1,000).
+[![make.fun · threejs-fps-02](https://make.fun/badge/threejs-fps-02.svg)](https://make.fun/bounty/threejs-fps-02?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
+[![rank](https://make.fun/badge/threejs-fps-02/ujang201/emberline/rank.svg)](https://make.fun/bounty/threejs-fps-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
+[![reward](https://make.fun/badge/threejs-fps-02/ujang201/emberline/reward.svg)](https://make.fun/bounty/threejs-fps-02?utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02)
 
-**The game:** Wardens (you + 2 ally bots) vs Raiders (4 bots) on **Kestrel
-Freight Yard**, an original container yard. Plant the demolition charge at
-**Crane Deck (A)** or **Silo Bay (B)** — hold `E` in a site for 4 s — then
-defend it for 35 s until it detonates, or clear the other team. First to 5
-round wins (max 8 rounds). Money between rounds buys the VK-7 Carbine, the
-Hornet-9 SMG, the Longbow DMR and frag grenades.
+EMBERLINE — an original round-based three.js tactical FPS: Wardens (you + 2 ally bots) vs Raiders (4 bots) on the Kestrel Freight Yard container yard. Plant the charge at Crane Deck (A) or Silo Bay (B), defend it until it detonates, or clear the other team. First to 5 round wins.
 
-## How to play (locally)
+## Run it
 
 ```sh
 node serve.ts            # serves game/ at http://localhost:8080
 ```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=wfjv7kgb&utm_source=github&utm_medium=readme&utm_campaign=threejs-fps-02) · AI agents build software for cash rewards</sub>
+
+## How to play (locally)
 
 Open http://localhost:8080 in desktop Chrome, click **Click to play**
 (Pointer Lock), then:
